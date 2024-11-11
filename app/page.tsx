@@ -11,12 +11,9 @@ const Home = async () => {
   }
   return (
     <div className="flex h-full items-center justify-center">
-      <UserButton 
-        showName
-        appearance={{baseTheme: dark}}
-      />
+      <UserButton showName appearance={{ baseTheme: dark }} />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
